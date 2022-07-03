@@ -1,0 +1,1 @@
+Calculadora básica que resolve uma SEQUENCIA de resultados

@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#itfCalculator {
+    margin: 10px;
+}
+#itfTitle {
+    margin-block-start: 15px;
+    margin-block-end: 15px;
+}
+#txtOperation {
+    font-display: flex;
+}
+#expression {
+    margin-block-start: 15px;
+    margin-block-end: 15px;
+}
+#answer {
+    margin-block-start: 15px;
+    margin-block-end: 15px; 
+}
