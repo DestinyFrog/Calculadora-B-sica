@@ -29,7 +29,7 @@ function Calculate(){
         index++;
     })
     document.getElementById("answer").value = result;
-    new Audio("./beep.wav").play();
+    new Audio("./beep1.wav").play();
 }
 function Operate(a, b, symbol){
     switch(symbol){
@@ -51,9 +51,10 @@ function Operate(a, b, symbol){
             return 0;
     }
 }
-window.addEventListener("keydown", (key) => {
-    new Audio("./beep.wav").play();
+window.addEventListener("keypress", (key) => {
     if(key.keyCode == 13){
         Init();
+    }else{
+        new Audio("./beep2.wav").play();
     }
 })
