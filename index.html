@@ -6,24 +6,29 @@
 </head>
 <body>
     <div id="itfCalculator">
-        <h1 id="itfTitle">Calculadora Básica</h1>
-        <h5 id="txtOperations">
-Use espaço entre os números e simbolos (a + b - c) <br>
-mantenha as operações mais importantes na frente <br>
-{3/ ; 2/ ; ^ [ * ; / ( + ; - )]} <br> <br>
-Soma => | a + b |<br>
-Subtração => | a - b |<br>
-Mutiplicação => | a * b |<br>
-Divisão => | a / b |<br>
-Potenciação => | a ^ b |<br>
-Raiz quadrada => | 2/  a |<br>
-Raiz cúbica => | 3/  a |<br>
-        </h5>
-        <div id="interactives">
-        <input id="expression" type="text" name="calculo">
-        <button id="button" type="button" onclick="Init();"> Calcular </button>
-        <input id="answer" type="text" value="00" name="resultado">
+        <textarea id="display" autofocus="true"></textarea>
+        <div id="buttons">
+            <button id="btn2" onclick="addChar('+')">+</button>
+            <button id="btn2" onclick="addChar('-')">-</button>
+            <button id="btn2" onclick="addChar('*')">*</button>
+            <button id="btn2" onclick="addChar('/')">/</button>
+            <button id="btn" onclick="addChar('7')">7</button>
+            <button id="btn" onclick="addChar('8')">8</button>
+            <button id="btn" onclick="addChar('9')">9</button>
+            <button id="btn2" onclick="addChar('^')">^</button>
+            <button id="btn" onclick="addChar('4')">4</button>
+            <button id="btn" onclick="addChar('5')">5</button>
+            <button id="btn" onclick="addChar('6')">6</button>
+            <button id="btn3" onclick="addChar('.')">.</button>
+            <button id="btn" onclick="addChar('2')">2</button>
+            <button id="btn" onclick="addChar('3')">3</button>
+            <button id="btn" onclick="addChar('1')">1</button>
+            <button id="btn3" onclick="del()">x</button>
+            <button id="btn" onclick="addChar('0')">0</button>
+            <button id="btn1" onclick="Init()">=</button>
+            <button id="btn3" onclick="reset()">C</button>
         </div>
+
     </div>
 
     <script src="./index.js"></script>

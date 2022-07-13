@@ -1,53 +1,76 @@
 body {
     height: max-content;
     margin: 20px;
-    margin-top: 30px;
+    margin-top: 50px;
     overflow: hidden;
     display: flex;
     justify-content: center;
     background-color: aliceblue;
-    background: #FFFFFF url("https://www.superprof.com.br/blog/wp-content/uploads/2016/10/a-matematica-no-esporte.gif") repeat-x;
-    background-size: 550px;
+    background: #FFFFFF url(./background.png) repeat-x;
+    background-size: 1000px;
 }
 #itfCalculator {
     border-radius: 1%;
     border-style:double;
     border-color: black;
     padding: 2%;
-    padding: 5px;
-    background-color:whitesmoke;
-    width: 215px;
-    height: 425px;
-}
-#itfTitle {
-    margin-block-start: 5px;
-    margin-block-end: 5px;
-    text-align: center;
-}
-#txtOperations {
-    font-display: flex;
-    text-align: center;
-}
-#interactives {
-    margin: 5px;
-    border-radius: 2%;
-    border: 1px;
-    border-color: black;
-    border-style: groove;
+    padding: 6px;
     background-color:aliceblue;
+    width: 195px;
+    height: 345px;
 }
-#expression {
-    margin-block-start: 5px;
-    margin-block-end: 5px;
-    margin-left: 17px;
-    text-align: center;
+#display {
+    border-color: beige;
+    margin-left: 5px;
+
+    text-align: right;
+    height: 100px;
+    width: 180px;
+    resize: none;
+    background-color: rgb(31, 31, 31);
+    color:azure;
+    font-size: 20px;
 }
-#button {
-    margin-left: 70px;
+#buttons {
+    margin-left: 5px;
+    display: flex;
+    border-radius: 2%;
+    border-style: double;
+    border-color: black;
+    width: 180px;
+    height: 225px;
+    background-color: beige;
+    flex-wrap: wrap;
 }
-#answer {
-    margin-block-start: 5px;
-    margin-block-end: 5px; 
-    margin-left: 17px;
-    text-align: center;
+#btn {
+    width: 45px;
+    height: 45px;
+    background-color: gainsboro;
+    border: 1px;
+    border-style: groove;
+    border-color: rgb(48, 48, 48);
+}
+#btn1 {
+    width: 90px;
+    height: 45px;
+    background-color: orange;
+    border: 1px;
+    border-style: groove;
+    border-color: rgb(48, 48, 48);
+}
+#btn2 {
+    width: 45px;
+    height: 45px;
+    background-color:rgb(175, 226, 226);
+    border: 1px;
+    border-style: groove;
+    border-color: rgb(48, 48, 48);
+}
+#btn3 {
+    width: 45px;
+    height: 45px;
+    background-color:darkseagreen;
+    border: 1px;
+    border-style: groove;
+    border-color: rgb(48, 48, 48);
 }
