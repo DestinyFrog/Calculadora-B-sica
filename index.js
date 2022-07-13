@@ -4,11 +4,7 @@ var numbers = []
 
 //metodos interativos com o html 
 window.addEventListener("keypress", (key) => {
-    if(key.keyCode == 13){
-        Init()
-    }else{
-        new Audio("./beep2.wav").play()
-    }
+    new Audio("./beep2.wav").play()
 })
 function addChar(chara){
     new Audio("./beep2.wav").play()
